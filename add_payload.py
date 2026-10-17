@@ -15,7 +15,7 @@ from icon_utils import convert_image_to_data_uri
 
 JSON_FILE = "payloads.json"
 PAYLOADS_DIR = "payloads"
-BASE_URL = "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror"
+BASE_URL = "https://github.com/gtalusan/ps5-payloads-mirror/releases/download/payloads-mirror"
 
 def get_repo_info(url):
     match = re.search(r"https?://([^/]+)/([^/]+)/([^/]+)", url)
